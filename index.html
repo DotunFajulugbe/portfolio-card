@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;700&display=swap" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            'quicksand': ["'Quicksand'", 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+
+</head>
+
+<body class="pb-12">
+  
+  <div class="flex items-center justify-center font-quicksand h-screen bg-gradient-to-bl from-rose-600 to-rose-800">
+    <div class="bg-white font-semibold text-center rounded-3xl border shadow-lg p-10 max-w-sm">
+      <img class="mb-3 w-32 h-32 rounded-full shadow-lg mx-auto" src="\src\8c507951-2265-43fc-9e6e-756b9ae7019a.jpg" alt="frontend dev">
+      <h1 class="text-2xl text-gray-800"> Dotun F. </h1>
+      <h3 class="text-md text-slate-500 "> Frontend Developer </h3><br/><hr/>
+      <p class="text-sm text-stone-900 mt-4"> I develop amazing visual experiences for users of any type of device, using various tools to achieve the magic of sleek design. </p>
+      <button class="bg-rose-900 px-8 py-2 mt-8 rounded-3xl text-gray-100 font-semibold uppercase tracking-wide">Hire Me</button>
+    </div>
+  </div>
+
+
+</body>
+
+</html>
